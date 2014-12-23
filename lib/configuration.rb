@@ -77,6 +77,7 @@ module AlaveteliConfiguration
             :USE_MAILCATCHER_IN_DEVELOPMENT => true,
             :UTILITY_SEARCH_PATH => ["/usr/bin", "/usr/local/bin"],
             :VARNISH_HOST => '',
+            :WIDGET_PAGE => false,
             :WORKING_OR_CALENDAR_DAYS => 'working',
           }
       end

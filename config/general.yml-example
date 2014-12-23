@@ -775,3 +775,12 @@ ALLOW_BATCH_REQUESTS: false
 #
 # ---
 RESPONSIVE_STYLING: true
+
+# If WIDGET_PAGE is set to true, Alaveteli will allow the embedding of a
+# 'widget' linking to a request on other sites. This widget will record
+# how many people click on an 'I also want to know' button.
+#
+# WIDGET_PAGE - Boolean (default: false)
+#
+# ---
+WIDGET_PAGE: false
