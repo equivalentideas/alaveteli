@@ -9,6 +9,7 @@ class WidgetsController < ApplicationController
     require 'securerandom'
 
     before_filter :find_info_request, :check_widget_config
+    skip_before_filter :set_x_frame_options_header, :only => [:show]
 
     def show
         medium_cache
